@@ -33,6 +33,7 @@
   },
   "type": "module",
   "dependencies": {
+    "axios": "^0.26.0",
     "sveltekit-i18n": "^2.0.0"
   }
 }
