@@ -42,9 +42,13 @@ import { each } from "svelte/internal";
     onStart()
 </script>
 
+<svelte:head>
+    <title>Pesmarica - Slovenska besedila in note</title>
+</svelte:head>
+
 <h1>Welcome to SvelteKit</h1>
 <h2>{$t('home.test')}</h2>
 <p>Visit <a href="https://kit.svelte.dev">kit.svelte.dev</a> to read the documentation</p>
 {#each data as document}
-    <p>{document.data.title}</p>
+    <p>{document.data.title}  {document.id}</p>
 {/each}

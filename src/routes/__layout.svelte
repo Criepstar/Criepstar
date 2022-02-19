@@ -3,3 +3,9 @@
 </script>
 
 <slot/>
+
+<style>
+    body{
+        @apply font-sans;
+    }
+</style>
